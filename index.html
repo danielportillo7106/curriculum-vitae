@@ -1,0 +1,228 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    
+    <section id="header">
+        <div class="row">
+            <div class="col-3 text-center p-5">
+                <img class="rounded" src="imgs/modric.png" alt="">
+            </div>
+            <div class="col-9 align-content-end flex-wrap border">
+                <p class="fs-1">Daniel Portillo</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Currículum - Carla Rodríguez</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #fff;
+    }
+
+    .cv {
+      max-width: 1000px;
+      margin: 40px auto;
+      background-color: #fff;
+      box-shadow: 0 10px 30px rgba(0,0,0,.15);
+    }
+
+    /* ===== HEADER ===== */
+    .cv-header {
+      background-color: #dfe7f1;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .cv-header img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .cv-header h1 {
+      margin: 0;
+      font-weight: 700;
+      color: #3c4a5d;
+    }
+
+    .cv-header p {
+      margin: 0;
+      letter-spacing: 2px;
+      color: #6c7a90;
+    }
+
+    /* ===== SIDEBAR ===== */
+    .sidebar {
+      background-color: #f3f6fb;
+      padding: 30px;
+      height: 100%;
+    }
+
+    .sidebar h6,
+    .content h6 {
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 15px;
+      color: #3c4a5d;
+    }
+
+    .sidebar ul {
+      padding-left: 18px;
+    }
+
+    .sidebar li {
+      margin-bottom: 6px;
+    }
+
+    /* ===== CONTENT ===== */
+    .content {
+      padding: 30px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .job-title {
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+
+    .job-meta {
+      font-size: 0.9rem;
+      color: #6c757d;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="cv">
+
+  <!-- ================= HEADER ================= -->
+  <header class="cv-header border-rounded">
+    <img src="imgs/modric.png" alt="Foto de perfil">
+    <div>
+      <h1>Carla Rodríguez</h1>
+      <p>LIC. EN CONTABILIDAD</p>
+    </div>
+  </header>
+
+  <!-- ================= BODY ================= -->
+  <div class="row g-0">
+
+    <!-- ===== SIDEBAR IZQUIERDA ===== -->
+    <aside class="col-md-4 sidebar">
+
+      <!-- CONTACTO -->
+      <section class="section">
+        <h6>CONTACTO</h6>
+        <p>📞 (55) 1234-5678</p>
+        <p>✉️ hola@sitioincreible.com</p>
+        <p>🌐 www.sitioincreible.com</p>
+      </section>
+
+      <!-- HABILIDADES -->
+      <section class="section">
+        <h6>HABILIDADES</h6>
+        <ul>
+          <li>Liderazgo</li>
+          <li>Comunicación asertiva</li>
+          <li>Gestión de activos</li>
+          <li>Resolución de problemas</li>
+          <li>Elaboración de reportes</li>
+          <li>Trabajo en equipo</li>
+        </ul>
+      </section>
+
+      <!-- EDUCACIÓN -->
+      <section class="section">
+        <h6>EDUCACIÓN</h6>
+
+        <p class="fw-bold mb-1">Licenciatura en Contabilidad</p>
+        <p class="mb-2">Universidad Alta Pinta<br>2010 - 2014</p>
+
+        <p class="fw-bold mb-1">Diplomado en Finanzas</p>
+        <p>Universidad Alta Pinta<br>2014 - 2016</p>
+      </section>
+
+    </aside>
+
+    <!-- ===== CONTENIDO DERECHA ===== -->
+    <main class="col-md-8 content">
+
+      <!-- ACERCA DE MI -->
+      <section class="section">
+        <h6>ACERCA DE MÍ</h6>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Nulla facilisi morbi tempus iaculis
+          urna id volutpat lacus.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua.
+        </p>
+      </section>
+
+      <!-- EXPERIENCIA -->
+      <section class="section">
+        <h6>EXPERIENCIA LABORAL</h6>
+
+        <div class="mb-3">
+          <p class="job-title">ÁREA DE CONTABILIDAD</p>
+          <p class="job-meta">Empresa Borcelle | 2010 - 2012</p>
+          <p>
+            Eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem.
+          </p>
+        </div>
+
+        <div class="mb-3">
+          <p class="job-title">ÁREA DE CONTABILIDAD</p>
+          <p class="job-meta">Empresa Borcelle | 2012 - 2014</p>
+          <p>
+            Eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem.
+          </p>
+        </div>
+
+        <div>
+          <p class="job-title">ÁREA DE CONTABILIDAD</p>
+          <p class="job-meta">Empresa Borcelle | 2014 - 2016</p>
+          <p>
+            Eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem.
+          </p>
+        </div>
+
+      </section>
+
+    </main>
+
+  </div>
+
+</div>
+
+</body>
+</html>
